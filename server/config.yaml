@@ -1,0 +1,23 @@
+nsqd:
+  execargs:
+    - "nsq/bin/nsqd"
+    - "--lookupd-tcp-address=127.0.0.1:4160"
+  execadmin: true
+  execadminargs:
+    - "--lookupd-http-address=127.0.0.1:4161"
+  topic: rsmtp
+
+remoteacconts:
+  - id: edu
+    user: edu.moisespsena@gmail.com
+    password: "Atos:16.32"
+  - id: mps
+    user: moisespsena@gmail.com
+    password: "{{%<?Is:55.9?>%}}"
+
+acconts:
+  user: user
+  password: 123
+  remoteacconts:
+    - edu
+    - mps
