@@ -9,7 +9,7 @@ import (
 	"github.com/emersion/go-smtp"
 	"github.com/bitly/go-nsq"
 	"fmt"
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 )
 
 type Backend struct{

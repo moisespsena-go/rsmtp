@@ -2,7 +2,7 @@ package rsmtp
 
 import (
 	"os/exec"
-	"github.com/moisespsena/go-error-wrap"
+	"github.com/moisespsena-go/error-wrap"
 	"path/filepath"
 	"strings"
 	"fmt"
